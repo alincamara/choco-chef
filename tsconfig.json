@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "tmp-typescript",
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["webworker", "es5"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*", "node_modules/*", "src/types/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*", "./index.tsx", "types", "src"],
+  "exclude": ["node_modules"]
+}
