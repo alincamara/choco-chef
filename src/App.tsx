@@ -21,7 +21,7 @@ const App = (): ReactElement => {
   const counter = useSelector((state: any) => state?.counter);
   const dispatch = useDispatch();
 
-  console.log("ce aduce pe counter....", counter);
+  console.log("ce aduce pe counter....", counter, "test");
 
   return (
     <div className={styles.app}>
