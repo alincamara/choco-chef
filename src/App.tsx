@@ -7,6 +7,10 @@ import styles from "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 // @ts-ignore: Unreachable code error
 import { increment } from "./actions";
+import { Routes, Route, Link } from "react-router-dom";
+import { Home } from "./containers/screens/Home";
+import { AboutUs } from "./containers/screens/AboutUs";
+import { Contact } from "./containers/screens/Contact";
 
 const App = (): ReactElement => {
   const [backendData, setBackendData] = useState<any>([{}]);
@@ -24,26 +28,36 @@ const App = (): ReactElement => {
   console.log("ce aduce pe counter....", counter, "test");
 
   return (
-    <div className={styles.app}>
-      <div className="menu">
-        <div className="leftSide">
-          <img src={siteLogo} className="logo" alt="logo" />
-        </div>
-        <div className="center">
-          <div onClick={() => dispatch(increment())} className="menuItem">
-            Home
+    <>
+      <div className={styles.app}>
+        <div className="menu">
+          <div className="leftSide">
+            <img src={siteLogo} className="logo" alt="logo" />
           </div>
-          <div className="menuItem">Shop</div>
-          <div className="menuItem">About Us</div>
-          <div className="menuItem">Contact</div>
+          <div className="center">
+            <div className="menuItem" onClick={() => dispatch(increment())}>
+              <Link to="/">Home</Link>
+            </div>
+            <div className="menuItem">
+              <Link to="/about">About Us</Link>
+            </div>
+            <div className="menuItem">
+              <Link to="/contact">Contact</Link>
+            </div>
+          </div>
+          <div className="rightSide">
+            <FaSearch />
+          </div>
         </div>
-        <div className="rightSide">
-          <FaSearch />
-        </div>
+        <div className="content">{backendData.users}</div>
+        <div className="footer"></div>
       </div>
-      <div className="content">{backendData.users}</div>
-      <div className="footer"></div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 };
 

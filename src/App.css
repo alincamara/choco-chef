@@ -41,3 +41,8 @@
   height: 20vmin;
   pointer-events: none;
 }
+
+a{
+  color: black;
+  text-decoration: none;
+}
