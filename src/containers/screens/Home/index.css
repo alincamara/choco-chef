@@ -1,0 +1,9 @@
+.home {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+}
+
+.topWrapper {
+  display: flex;
+}
