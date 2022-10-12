@@ -5,7 +5,7 @@ export const Home = (): ReactElement => {
   return (
     <div className="home">
       <div className="topWrapper">
-        <div className="logo">Logo</div>
+        <div className="logoWrapper">Logo</div>
         <div className="slideShow">Slide Show</div>
       </div>
       <div className="catalog">
