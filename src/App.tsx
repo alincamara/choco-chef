@@ -2,7 +2,6 @@ import React, {
   ReactElement,
   //  useEffect, useState
 } from 'react'
-import siteLogo from './styles/icons/logo-choco-chef.svg'
 import { FaSearch } from 'react-icons/fa'
 import {
   useSelector,
@@ -35,17 +34,17 @@ const App = (): ReactElement => {
       <div className={styles.app}>
         <div className="menu">
           <div className="leftSide">
-            <img src={siteLogo} className="logo" alt="logo" />
+            <span className="siteTitle">{''}</span>
           </div>
           <div className="center">
             <div
               className="menuItem"
               //  onClick={() => dispatch(increment())}
             >
-              <Link to="/">Home</Link>
+              <Link to="/">Acasă</Link>
             </div>
             <div className="menuItem">
-              <Link to="/about">About Us</Link>
+              <Link to="/about">Despre noi</Link>
             </div>
             <div className="menuItem">
               <Link to="/contact">Contact</Link>
@@ -55,8 +54,6 @@ const App = (): ReactElement => {
             <FaSearch />
           </div>
         </div>
-        {/* <div className="content">{backendData.users}</div> */}
-        <div className="footer"></div>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />

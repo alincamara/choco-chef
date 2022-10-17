@@ -1,14 +1,16 @@
 .app {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: red;
 }
 
 .menu {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
+  justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #7f3a1fbf;
 }
 
 .center {
@@ -26,11 +28,11 @@
   height: 20px;
   margin: 10px 20px;
   cursor: pointer;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid transparent;
 }
 
 .menuItem:hover {
-  border-bottom: 3px solid brown;
+  border-bottom: 3px solid #d7c1b3;
 }
 
 .content {
@@ -44,6 +46,10 @@
 }
 
 a {
-  color: black;
+  color: #d7c1b3;
   text-decoration: none;
+}
+
+.siteTitle {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

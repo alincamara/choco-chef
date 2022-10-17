@@ -1,17 +1,33 @@
 import React, { ReactElement } from 'react'
+import logoHome from '../../../styles/images/logoColor.png'
+import Products from './Products'
+import SlideShow from './SlideShow'
+import Tabs from './Tabs'
 import './index.css'
+import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { IoMdMail } from 'react-icons/io'
 
 export const Home = (): ReactElement => {
   return (
     <div className="home">
       <div className="topWrapper">
-        <div className="logoWrapper">Logo</div>
-        <div className="slideShow">Slide Show</div>
+        <div className="logoWrapper">
+          <img src={logoHome} className="logoHome" alt="logoHome" />
+          <div className="buttonsWrapper">
+            <button className="shopNowBtn">Shop Now</button>
+            <div className="socialMediaButtons">
+              <FaFacebook className="socialIcon" />
+              <FaInstagram className="socialIcon" />
+              <IoMdMail className="socialIcon" />
+            </div>
+          </div>
+        </div>
+        <SlideShow />
       </div>
       <div className="catalog">
         <div className="title">Catalog</div>
-        <div className="tabs">Tabs</div>
-        <div className="products">Products</div>
+        <Tabs />
+        <Products />
       </div>
     </div>
   )
