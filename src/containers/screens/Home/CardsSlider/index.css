@@ -1,6 +1,8 @@
 .cardsSlider {
   display: flex;
+  overflow: auto;
   position: relative;
+  padding: 0 20px;
 }
 
 .chevron-left {

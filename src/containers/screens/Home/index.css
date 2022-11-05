@@ -59,4 +59,7 @@
 }
 
 @media all and (max-width: 1000px) {
+  .topWrapper {
+    flex-direction: column;
+  }
 }
