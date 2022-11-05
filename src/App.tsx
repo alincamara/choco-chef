@@ -12,7 +12,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { Home } from './containers/screens/Home'
 import { AboutUs } from './containers/screens/AboutUs'
 import { Contact } from './containers/screens/Contact'
-import styles from './App.css'
+import './App.css'
 
 const App = (): ReactElement => {
   // const [backendData, setBackendData] = useState<any>([{}])
@@ -30,29 +30,27 @@ const App = (): ReactElement => {
   console.log('ce aduce pe counter....', counter, 'test')
 
   return (
-    <>
-      <div className={styles.app}>
-        <div className="menu">
-          <div className="leftSide">
-            <span className="siteTitle">{''}</span>
+    <div className="app">
+      <div className="menu">
+        <div className="leftSide">
+          <span className="siteTitle">{''}</span>
+        </div>
+        <div className="center">
+          <div
+            className="menuItem"
+            //  onClick={() => dispatch(increment())}
+          >
+            <Link to="/">Acasă</Link>
           </div>
-          <div className="center">
-            <div
-              className="menuItem"
-              //  onClick={() => dispatch(increment())}
-            >
-              <Link to="/">Acasă</Link>
-            </div>
-            <div className="menuItem">
-              <Link to="/about">Despre noi</Link>
-            </div>
-            <div className="menuItem">
-              <Link to="/contact">Contact</Link>
-            </div>
+          <div className="menuItem">
+            <Link to="/about">Despre noi</Link>
           </div>
-          <div className="rightSide">
-            <FaSearch />
+          <div className="menuItem">
+            <Link to="/contact">Contact</Link>
           </div>
+        </div>
+        <div className="rightSide">
+          <FaSearch />
         </div>
       </div>
       <Routes>
@@ -60,7 +58,8 @@ const App = (): ReactElement => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+      <div className="footer">Footer</div>
+    </div>
   )
 }
 

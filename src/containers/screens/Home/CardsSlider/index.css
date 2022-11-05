@@ -1,0 +1,27 @@
+.cardsSlider {
+  display: flex;
+  position: relative;
+}
+
+.chevron-left {
+  position: absolute;
+  font-size: 20px;
+  left: -20px;
+  top: 40%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.chevron-right {
+  position: absolute;
+  font-size: 20px;
+  right: -20px;
+  top: 40%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.chevron-left:hover,
+.chevron-right:hover {
+  opacity: 1;
+}

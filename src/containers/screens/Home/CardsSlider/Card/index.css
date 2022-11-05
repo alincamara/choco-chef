@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 240px;
+  max-height: 480px;
+  min-width: 160px;
+  max-width: 320px;
+  margin: 10px;
+}
+
+.photo {
+  display: flex;
+}
+
+.photo1 {
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 600;
+}

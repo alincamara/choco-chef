@@ -1,7 +1,8 @@
 .app {
   display: flex;
+  flex: auto;
   flex-direction: column;
-  background-color: red;
+  justify-content: space-between;
 }
 
 .menu {
@@ -52,4 +53,12 @@ a {
 
 .siteTitle {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  height: 50px;
 }
