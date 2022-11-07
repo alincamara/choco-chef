@@ -2,7 +2,7 @@ import React, {
   ReactElement,
   //  useEffect, useState
 } from 'react'
-import { FaSearch } from 'react-icons/fa'
+import { FaSearch, FaBars } from 'react-icons/fa'
 import {
   useSelector,
   // useDispatch
@@ -33,7 +33,7 @@ const App = (): ReactElement => {
     <div className="app">
       <div className="menu">
         <div className="leftSide">
-          <span className="siteTitle">{''}</span>
+          <FaBars />
         </div>
         <div className="center">
           <div
