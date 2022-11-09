@@ -53,44 +53,19 @@ export const SlideShow = (): ReactElement => {
         )}
       </div>
       <div className="slideNav">
-        <div
-          className="circle"
-          onClick={handlePhoto1}
-          onKeyDown={handlePhoto1}
-          aria-hidden="true"
-        >
+        <div className="circle" onClick={handlePhoto1}>
           <div className="smallCircle" />
         </div>
-        <div
-          className="circle"
-          onClick={handlePhoto2}
-          onKeyDown={handlePhoto2}
-          aria-hidden="true"
-        >
+        <div className="circle" onClick={handlePhoto2}>
           <div className="smallCircle" />
         </div>
-        <div
-          className="circle"
-          onClick={handlePhoto3}
-          onKeyDown={handlePhoto3}
-          aria-hidden="true"
-        >
+        <div className="circle" onClick={handlePhoto3}>
           <div className="smallCircle" />
         </div>
-        <div
-          className="circle"
-          onClick={handlePhoto4}
-          onKeyDown={handlePhoto4}
-          aria-hidden="true"
-        >
+        <div className="circle" onClick={handlePhoto4}>
           <div className="smallCircle" />
         </div>
-        <div
-          className="circle"
-          onClick={handlePhoto5}
-          onKeyDown={handlePhoto5}
-          aria-hidden="true"
-        >
+        <div className="circle" onClick={handlePhoto5}>
           <div className="smallCircle" />
         </div>
       </div>
