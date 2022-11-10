@@ -62,16 +62,40 @@
 
 @media all and (max-width: 900px) {
   .slideShow {
-    min-width: 440px;
+    min-width: 320px;
     width: 90%;
-    height: 300px;
+    height: 360px;
     object-fit: cover;
     object-position: bottom;
   }
 }
 
 @media all and (max-width: 780px) {
+  .slideShow {
+    height: 330px;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .slideShow {
+    height: 300px;
+  }
 }
 
 @media all and (max-width: 560px) {
+  .slideShow {
+    height: 270px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .slideShow {
+    height: 240px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .slideShow {
+    height: 210px;
+  }
 }
