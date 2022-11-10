@@ -4,6 +4,7 @@ import photo2 from '../../../../styles/images/photo02.jpg'
 import photo3 from '../../../../styles/images/photo03.jpg'
 import photo4 from '../../../../styles/images/photo04.jpg'
 import photo5 from '../../../../styles/images/photo05.jpg'
+import join from 'classnames'
 import './index.css'
 
 // interface Props {
@@ -53,19 +54,49 @@ export const SlideShow = (): ReactElement => {
         )}
       </div>
       <div className="slideNav">
-        <div className="circle" onClick={handlePhoto1}>
+        <div
+          className={join(
+            'circle',
+            selectedPictureId === '1' && 'circleActive'
+          )}
+          onClick={handlePhoto1}
+        >
           <div className="smallCircle" />
         </div>
-        <div className="circle" onClick={handlePhoto2}>
+        <div
+          className={join(
+            'circle',
+            selectedPictureId === '2' && 'circleActive'
+          )}
+          onClick={handlePhoto2}
+        >
           <div className="smallCircle" />
         </div>
-        <div className="circle" onClick={handlePhoto3}>
+        <div
+          className={join(
+            'circle',
+            selectedPictureId === '3' && 'circleActive'
+          )}
+          onClick={handlePhoto3}
+        >
           <div className="smallCircle" />
         </div>
-        <div className="circle" onClick={handlePhoto4}>
+        <div
+          className={join(
+            'circle',
+            selectedPictureId === '4' && 'circleActive'
+          )}
+          onClick={handlePhoto4}
+        >
           <div className="smallCircle" />
         </div>
-        <div className="circle" onClick={handlePhoto5}>
+        <div
+          className={join(
+            'circle',
+            selectedPictureId === '5' && 'circleActive'
+          )}
+          onClick={handlePhoto5}
+        >
           <div className="smallCircle" />
         </div>
       </div>

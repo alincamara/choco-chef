@@ -19,6 +19,7 @@
   "author": "Vishwas",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.3.2",
     "fnm": "*",
     "nvm": "^0.0.4",
     "react": "^18.2.0",
