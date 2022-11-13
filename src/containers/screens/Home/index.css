@@ -3,7 +3,8 @@
   align-items: center;
   flex-direction: column;
   overflow-y: auto;
-  max-height: 100vh;
+  max-height: 80vh;
+  padding-bottom: 85px;
 }
 
 .topWrapper {
