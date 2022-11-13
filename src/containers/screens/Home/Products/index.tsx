@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import join from 'classnames'
 import photo09 from '../../../../styles/images/photo09.jpg'
 import photo07 from '../../../../styles/images/photo07.jpg'
 import photo08 from '../../../../styles/images/photo08.jpg'
@@ -6,9 +7,14 @@ import photo10 from '../../../../styles/images/photo10.jpg'
 import Product from './Product'
 import './index.css'
 
-export const Products = (): ReactElement => {
+interface Props {
+  className?: string
+}
+
+export const Products = (props: Props): ReactElement => {
+  const { className } = props
   return (
-    <div className="products">
+    <div className={join('products', className)}>
       <div className="smallProductsWrapper">
         <Product name="Choux au craquelin" price="$100" />
         <Product name="Apple Pie" price="$50" photo={photo09} />

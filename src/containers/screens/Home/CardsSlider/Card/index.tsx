@@ -8,10 +8,10 @@ interface Props {
   photo?: string
 }
 
-export const Product = (props: Props): ReactElement => {
+export const Card = (props: Props): ReactElement => {
   const { name, price, photo } = props
   return (
-    <div className="product">
+    <div className="card">
       <div className="photo">
         <img src={photo ? photo : photo1} className="photo1" alt="photo1" />
       </div>
@@ -23,4 +23,4 @@ export const Product = (props: Props): ReactElement => {
   )
 }
 
-export default Product
+export default Card

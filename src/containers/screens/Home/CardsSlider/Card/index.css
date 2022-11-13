@@ -1,11 +1,9 @@
-.product {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 240px;
-  max-height: 480px;
-  min-width: 160px;
-  max-width: 320px;
+  max-height: 400px;
+  max-width: 200px;
   margin: 10px;
 }
 

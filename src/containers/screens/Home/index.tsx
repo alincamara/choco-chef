@@ -2,8 +2,9 @@ import React, { ReactElement } from 'react'
 import logoHome from '../../../styles/images/logoColor.png'
 import Products from './Products'
 import SlideShow from './SlideShow'
+import Skills from './Skills'
 import Tabs from './Tabs'
-// import CardsSlider from './CardsSlider'
+import CardsSlider from './CardsSlider'
 import './index.css'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'
@@ -27,9 +28,13 @@ export const Home = (): ReactElement => {
       </div>
       <div className="catalog">
         <div className="title">Catalog</div>
-        <Tabs />
-        {/* <CardsSlider /> */}
-        <Products />
+        {/* <Tabs /> */}
+        <CardsSlider className="cardsS" />
+        <Products className="productsS" />
+      </div>
+      <div className="skillsWrapper">
+        <div className="titleAdv">{'Our Advantages'}</div>
+        <Skills />
       </div>
     </div>
   )

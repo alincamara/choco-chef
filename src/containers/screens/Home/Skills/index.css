@@ -1,0 +1,30 @@
+.imgWrapper {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #b2b2b2;
+}
+
+.photo101 {
+  height: 150px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.skillTitle {
+  padding-top: 10px;
+}

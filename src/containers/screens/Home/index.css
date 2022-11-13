@@ -23,7 +23,7 @@
 }
 
 .catalog {
-  margin-top: 10px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +31,9 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.8rem;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .logoHome {
@@ -61,6 +62,21 @@
   margin: 26px;
 }
 
+.cardsS {
+  display: none;
+}
+
+.skillsWrapper {
+  margin: 30px;
+  padding-bottom: 30px;
+}
+
+.titleAdv {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
 @media all and (max-width: 900px) {
   .topWrapper {
     flex-direction: column;
@@ -68,6 +84,14 @@
   }
   .logoWrapper {
     margin: 40px 0 0 0;
+  }
+
+  .cardsS {
+    display: flex;
+  }
+
+  .productsS {
+    display: none;
   }
 }
 
