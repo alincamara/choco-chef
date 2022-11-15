@@ -2,12 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
+  height: 90vh;
   background-color: #333;
+  overflow: auto;
 }
 
 @media all and (max-width: 780px) {
   .about {
     flex-direction: column;
+    padding-bottom: 50px;
   }
 }
