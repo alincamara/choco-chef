@@ -8,10 +8,15 @@ import // useSelector,
 // import { increment } from './actions'
 import { Routes, Route } from 'react-router-dom'
 import { Home } from './containers/screens/Home'
-import { AboutUs } from './containers/screens/AboutUs'
+import { About } from './containers/screens/AboutUs'
 import { Contact } from './containers/screens/Contact'
 import Navbar from './containers/Navbar'
 import './App.css'
+import {
+  ROUTES_DEFAULT,
+  ROUTE_PAGE_ABOUT,
+  ROUTE_PAGE_CONTACT,
+} from './constants/routes'
 
 const App = (): ReactElement => {
   // const [backendData, setBackendData] = useState<any>([{}])
@@ -30,9 +35,9 @@ const App = (): ReactElement => {
     <div className="app">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path={ROUTES_DEFAULT} element={<Home />} />
+        <Route path={ROUTE_PAGE_ABOUT} element={<About />} />
+        <Route path={ROUTE_PAGE_CONTACT} element={<Contact />} />
       </Routes>
       <div className="footer">Footer</div>
     </div>

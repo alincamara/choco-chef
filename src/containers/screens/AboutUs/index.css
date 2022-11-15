@@ -1,0 +1,13 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: #333;
+}
+
+@media all and (max-width: 780px) {
+  .about {
+    flex-direction: column;
+  }
+}

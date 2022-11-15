@@ -1,0 +1,11 @@
+.contactPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
