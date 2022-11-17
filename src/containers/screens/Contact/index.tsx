@@ -17,6 +17,7 @@ export const Contact = (props: Props): ReactElement => {
 
   return (
     <div className={join('contactPage', className)}>
+      <div className="contactMessage">{'Contact Us'}</div>
       <form
         action="https://formsubmit.co/alincamara9403@gmail.com"
         method="POST"
@@ -25,12 +26,13 @@ export const Contact = (props: Props): ReactElement => {
         <input type="email" name="email" placeholder="Email Address" required />
         {/* <input type="hidden" name="_next" value="http://localhost:8081/about" /> */}
         <input
+          className="messageInput"
           type="text"
           name="message"
           placeholder="Write your message here"
           required
         />
-        <button type="submit" onClick={handleSubmit}>
+        <button className="sendBtn" type="submit" onClick={handleSubmit}>
           Send
         </button>
       </form>
