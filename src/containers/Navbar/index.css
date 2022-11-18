@@ -112,10 +112,6 @@ a {
   border-bottom: 4px solid transparent;
 }
 
-.menuItem:hover {
-  border-bottom: 3px solid #d7c1b3;
-}
-
 @media all and (max-width: 780px) {
   .center {
     display: none;

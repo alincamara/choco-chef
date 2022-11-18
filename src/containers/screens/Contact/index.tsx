@@ -25,13 +25,19 @@ export const Contact = (props: Props): ReactElement => {
         <input type="hidden" name="_subject" value="New email woooo!" />
         <input type="email" name="email" placeholder="Email Address" required />
         {/* <input type="hidden" name="_next" value="http://localhost:8081/about" /> */}
-        <input
+        {/* <input
           className="messageInput"
           type="text"
           name="message"
           placeholder="Write your message here"
           required
-        />
+        /> */}
+        <textarea
+          className="messageInput"
+          name="message"
+          placeholder="Write your message here"
+          required
+        ></textarea>
         <button className="sendBtn" type="submit" onClick={handleSubmit}>
           Send
         </button>

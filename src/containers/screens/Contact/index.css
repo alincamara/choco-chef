@@ -18,6 +18,7 @@ input {
   margin: 14px;
   border-radius: 5px;
   padding: 10px;
+  border: 1px solid black;
 }
 input::placeholder {
   color: gray;
@@ -26,10 +27,11 @@ input::placeholder {
 .contactMessage {
   font-size: 1.6rem;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .sendBtn {
-  width: 300px;
+  width: 324px;
   height: 40px;
   margin: 14px;
   border-radius: 5px;
@@ -41,4 +43,13 @@ input::placeholder {
 
 .messageInput {
   min-height: 200px;
+}
+
+textarea {
+  width: 300px;
+  height: 40px;
+  margin: 14px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid black;
 }
