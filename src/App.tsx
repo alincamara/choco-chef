@@ -6,7 +6,9 @@ import // useSelector,
 // useDispatch
 'react-redux'
 // import { increment } from './actions'
-import { Routes, Route } from 'react-router-dom'
+import { ConnectedRouter } from 'connected-react-router'
+import history from './lib/browser-history'
+import { Route, Routes } from 'react-router-dom'
 import { Home } from './containers/screens/Home'
 import { About } from './containers/screens/AboutUs'
 import { Contact } from './containers/screens/Contact'
@@ -34,11 +36,13 @@ const App = (): ReactElement => {
   return (
     <div className="app">
       <Navbar />
-      <Routes>
-        <Route path={ROUTES_DEFAULT} element={<Home />} />
-        <Route path={ROUTE_PAGE_ABOUT} element={<About />} />
-        <Route path={ROUTE_PAGE_CONTACT} element={<Contact />} />
-      </Routes>
+      <ConnectedRouter history={history}>
+        <Routes>
+          <Route path={ROUTES_DEFAULT} element={<Home />} />
+          <Route path={ROUTE_PAGE_ABOUT} element={<About />} />
+          <Route path={ROUTE_PAGE_CONTACT} element={<Contact />} />
+        </Routes>
+      </ConnectedRouter>
       <div className="footer">Footer</div>
     </div>
   )

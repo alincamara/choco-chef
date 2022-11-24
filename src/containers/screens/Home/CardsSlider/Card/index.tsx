@@ -6,12 +6,18 @@ interface Props {
   name?: string
   price?: string
   photo?: string
+  onClick?: () => void
 }
 
 export const Card = (props: Props): ReactElement => {
-  const { name, price, photo } = props
+  const { name, price, photo, onClick } = props
+
+  const handleCardClick = () => {
+    onClick && onClick()
+  }
+
   return (
-    <div className="card">
+    <div className="card" onClick={handleCardClick}>
       <div className="photo">
         <img src={photo ? photo : photo1} className="photo1" alt="photo1" />
       </div>

@@ -5,6 +5,7 @@
   max-height: 400px;
   max-width: 200px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .photo {

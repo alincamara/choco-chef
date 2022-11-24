@@ -8,14 +8,20 @@ interface Props {
   price?: string
   bigPhoto?: boolean
   photo?: string
+  onClick?: () => void
 }
 
 export const Product = (props: Props): ReactElement => {
-  const { name, price, photo, bigPhoto } = props
+  const { name, price, photo, bigPhoto, onClick } = props
+
+  const handleProductClick = () => {
+    onClick && onClick()
+  }
+
   return (
     <>
       {bigPhoto ? (
-        <div className="bigProduct">
+        <div className="bigProduct" onClick={handleProductClick}>
           <div className="photo">
             <img
               src={photo ? photo : photo1}
@@ -29,7 +35,7 @@ export const Product = (props: Props): ReactElement => {
           </div>
         </div>
       ) : (
-        <div className="product">
+        <div className="product" onClick={handleProductClick}>
           <div className="photo">
             <img src={photo ? photo : photo1} className="photo1" alt="photo1" />
           </div>
