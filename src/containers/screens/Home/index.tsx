@@ -30,7 +30,6 @@ export const Home = (): ReactElement => {
         <div className="title">Catalog</div>
         {/* <Tabs /> */}
         <CardsSlider className="cardsS" />
-        <Products className="productsS" />
       </div>
       <div className="skillsWrapper">
         <div className="titleAdv">{'Our Advantages'}</div>

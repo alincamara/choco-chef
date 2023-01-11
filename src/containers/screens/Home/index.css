@@ -63,10 +63,6 @@
   margin: 26px;
 }
 
-.cardsS {
-  display: none;
-}
-
 .skillsWrapper {
   margin: 30px;
   padding-bottom: 30px;
@@ -85,14 +81,6 @@
   }
   .logoWrapper {
     margin: 40px 0 0 0;
-  }
-
-  .cardsS {
-    display: flex;
-  }
-
-  .productsS {
-    display: none;
   }
 }
 
