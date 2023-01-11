@@ -26,13 +26,9 @@ export const Home = (): ReactElement => {
         </div>
         <SlideShow />
       </div>
-      <div className="catalog">
-        <div className="title">Catalog</div>
-        {/* <Tabs /> */}
-        <CardsSlider className="cardsS" />
-      </div>
+      <CardsSlider className="cardsS" />
       <div className="skillsWrapper">
-        <div className="titleAdv">{'Our Advantages'}</div>
+        <div className="product-category">{'Our Advantages'}</div>
         <Skills />
       </div>
     </div>
