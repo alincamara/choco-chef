@@ -1,18 +1,3 @@
-.imgWrapper {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #b2b2b2;
-}
-
-.photo101 {
-  height: 150px;
-}
-
 .skills {
   display: flex;
   justify-content: center;
@@ -27,4 +12,14 @@
 
 .skillTitle {
   padding-top: 10px;
+}
+
+.skillIcons {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}
+
+.skillIcons:hover {
+  color: rgb(219, 22, 22);
 }

@@ -1,4 +1,8 @@
 import React, { ReactElement } from 'react'
+import * as FaIcons from 'react-icons/fa'
+import * as AiIcons from 'react-icons/ai'
+import * as IoIcons from 'react-icons/io5'
+import * as GiIcons from 'react-icons/gi'
 import photo10 from '../../../../styles/images/photo10.jpg'
 
 import './index.css'
@@ -7,22 +11,16 @@ export const Skills = (): ReactElement => {
   return (
     <div className="skills">
       <div className="skill">
-        <div className="imgWrapper">
-          <img src={photo10} className="photo101" alt="photo10" />
-        </div>
-        <div className="skillTitle">{'Hight Quality'}</div>
+        <FaIcons.FaHeart className="skillIcons" />
+        <div className="skillTitle">{'Pasiune'}</div>
       </div>
       <div className="skill">
-        <div className="imgWrapper">
-          <img src={photo10} className="photo101" alt="photo10" />
-        </div>
-        <div className="skillTitle">{'Hight Quality'}</div>
+        <GiIcons.GiCupcake className="skillIcons" />
+        <div className="skillTitle">{'Perseverenta'}</div>
       </div>
       <div className="skill">
-        <div className="imgWrapper">
-          <img src={photo10} className="photo101" alt="photo10" />
-        </div>
-        <div className="skillTitle">{'Hight Quality'}</div>
+        <GiIcons.GiCakeSlice className="skillIcons" />
+        <div className="skillTitle">{'Promtitudine'}</div>
       </div>
     </div>
   )
