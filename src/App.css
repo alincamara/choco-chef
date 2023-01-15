@@ -9,7 +9,7 @@
   overflow: auto;
 }
 
-.content {
+/* .content {
   display: flex;
   flex-direction: column;
 }
@@ -50,4 +50,4 @@
   .menu {
     justify-content: space-between;
   }
-}
+} */
