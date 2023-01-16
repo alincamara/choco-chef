@@ -16,7 +16,7 @@ export const About = (): ReactElement => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Alin Camara, web developer from Brasov, Romania. I have rich
+              I am Alin Camară, web developer from Brașov, Romania. I have rich
               experience in web site design and building and customization, also
               I am good at WordPress.
             </p>
@@ -28,23 +28,12 @@ export const About = (): ReactElement => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">Web Development</h3>
                 <span className="skills__number">90%</span>
               </div>
 
               <div className="skills__bar">
                 <span className="skills__percentage development"></span>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
-                <span className="skills__number">80%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage ui__design"></span>
               </div>
             </div>
 
@@ -56,6 +45,28 @@ export const About = (): ReactElement => {
 
               <div className="skills__bar">
                 <span className="skills__percentage photography"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Cooking</h3>
+                <span className="skills__number">80%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage cooking"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Videography</h3>
+                <span className="skills__number">70%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage videography"></span>
               </div>
             </div>
           </div>

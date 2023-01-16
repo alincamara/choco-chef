@@ -69,7 +69,7 @@
   background-color: rgb(255, 209, 92);
 }
 
-.ui__design {
+.cooking {
   width: 80%;
   background-color: rgb(255, 76, 96);
 }
@@ -77,6 +77,11 @@
 .photography {
   width: 60%;
   background-color: rgb(108, 108, 299);
+}
+
+.videography {
+  width: 70%;
+  background-color: rgb(255, 209, 92);
 }
 
 .about__boxes {
