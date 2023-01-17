@@ -18,19 +18,19 @@ export const Portofolio = (): ReactElement => {
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
-          Everything
+          Development
         </span>
-        <span className="work__item" onClick={() => filterItem('Creative')}>
-          Creative
+        <span className="work__item" onClick={() => filterItem('Development')}>
+          Development
+        </span>
+        <span className="work__item" onClick={() => filterItem('Baking')}>
+          Baking
         </span>
         <span className="work__item" onClick={() => filterItem('Art')}>
           Art
         </span>
         <span className="work__item" onClick={() => filterItem('Design')}>
           Design
-        </span>
-        <span className="work__item" onClick={() => filterItem('Branding')}>
-          Branding
         </span>
       </div>
 

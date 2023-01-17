@@ -24,9 +24,9 @@ export const Blog = (): ReactElement => {
               5 Best App Development Tool for Your Projects
             </h3>
             <div className="blog__meta">
-              <span>09 February, 2022</span>
+              <span>11 November, 2022</span>
               <span className="blog__dot">.</span>
-              <span>Bolby</span>
+              <span>Alka</span>
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ export const Blog = (): ReactElement => {
           <div className="blog__details">
             <h3 className="blog__title">Common Misconceptions About Payment</h3>
             <div className="blog__meta">
-              <span>07 February, 2022</span>
+              <span>19 December, 2022</span>
               <span className="blog__dot">.</span>
-              <span>Bolby</span>
+              <span>Alka</span>
             </div>
           </div>
         </div>
@@ -64,9 +64,9 @@ export const Blog = (): ReactElement => {
               3 Things to know about startup business
             </h3>
             <div className="blog__meta">
-              <span>05 February, 2022</span>
+              <span>05 January, 2023</span>
               <span className="blog__dot">.</span>
-              <span>Bolby</span>
+              <span>Alka</span>
             </div>
           </div>
         </div>

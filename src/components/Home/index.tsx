@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 
 import './index.css'
-import Me from '../../assets/avatar-1.svg'
+import Me from '../../assets/alin.jpeg'
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
 import Shapes from './Shapes'

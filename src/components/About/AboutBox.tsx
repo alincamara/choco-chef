@@ -9,7 +9,7 @@ export const AboutBox = (): ReactElement => {
         <i className="about__icon icon-fire"></i>
 
         <div>
-          <h3 className="about__title">9</h3>
+          <h3 className="about__title">14</h3>
           <span className="about__subtitle">Project completed</span>
         </div>
       </div>
@@ -33,11 +33,11 @@ export const AboutBox = (): ReactElement => {
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-badge"></i>
+        <i className="about__icon icon-chemistry"></i>
 
         <div>
-          <h3 className="about__title">10</h3>
-          <span className="about__subtitle">Nominies winner</span>
+          <h3 className="about__title">26</h3>
+          <span className="about__subtitle">Recepies</span>
         </div>
       </div>
     </div>

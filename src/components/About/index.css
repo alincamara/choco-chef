@@ -84,6 +84,16 @@
   background-color: rgb(255, 209, 92);
 }
 
+.drones {
+  width: 80%;
+  background-color: rgb(255, 76, 96);
+}
+
+.diy {
+  width: 90%;
+  background-color: rgb(108, 108, 299);
+}
+
 .about__boxes {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.875rem;
@@ -102,6 +112,12 @@
 
 .about__title {
   font-size: 1.875rem;
+}
+
+.about__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1024px) {

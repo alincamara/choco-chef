@@ -9,22 +9,22 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: 'Project Management Illustration',
-    category: 'Design',
+    title: 'Alege Sanatatea',
+    category: 'Development',
   },
   {
     id: 2,
     image: Work2,
-    title: 'Guest App Walkthrough Screens',
-    category: 'Art',
+    title: 'My New Site',
+    category: 'Development',
   },
+
   {
     id: 3,
-    image: Work3,
-    title: 'Delivery App Wireframe',
-    category: 'Branding',
+    image: Work6,
+    title: 'Started Choco Chef',
+    category: 'Baking',
   },
-  ,
   {
     id: 4,
     image: Work4,

@@ -8,22 +8,22 @@ import Image3 from '../../assets/service-3.svg'
 const data = [
   {
     id: 1,
-    image: Image1,
-    title: 'UI/UX design',
-    description:
-      'Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.',
-  },
-  {
-    id: 2,
     image: Image2,
     title: 'Web Development',
     description:
       'Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.',
   },
   {
-    id: 3,
+    id: 2,
     image: Image3,
     title: 'Photography',
+    description:
+      'Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.',
+  },
+  {
+    id: 3,
+    image: Image1,
+    title: 'Videography',
     description:
       'Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.',
   },

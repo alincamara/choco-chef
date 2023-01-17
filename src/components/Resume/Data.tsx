@@ -3,55 +3,50 @@ const Data = [
     id: 1,
     category: 'education',
     icon: 'icon-graduation',
-    year: '2019 - present',
-    title: 'Academic Degree',
-    desc:
-      'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.',
+    year: '2017 - 2018',
+    title: 'Course',
+    desc: 'Finished the web development course offered by Udacity.',
   },
   {
     id: 2,
     category: 'education',
     icon: 'icon-graduation',
     year: '2013 - 2017',
-    title: "Bachelor's Degree",
+    title: 'Academic Degree',
     desc:
-      'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.',
+      'Bechelor of Chemical Engineering - Babes-Bolyai University Cluj-Napoca',
   },
   {
     id: 3,
     category: 'education',
     icon: 'icon-graduation',
     year: '2009 - 2013',
-    title: 'Honours Degree',
-    desc:
-      'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.',
+    title: "Bachelor's Degree",
+    desc: 'Liceul de Stiinte Grigore Antipa - Matematica Informatica',
   },
   {
     id: 4,
     category: 'experience',
     icon: 'icon-briefcase',
-    year: '2019 - present',
-    title: 'Web Designer',
-    desc:
-      'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.',
+    year: '2020 - present',
+    title: 'React.js Developer',
+    desc: 'Work with Javascript, CSS, HTML, React, Typescript, Redux',
   },
   {
     id: 5,
     category: 'experience',
     icon: 'icon-briefcase',
-    year: '2013 - 2017',
-    title: 'Front-End Developer',
-    desc:
-      'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.',
+    year: '2019 - 2020',
+    title: 'Error Handling / Tehnical Suport',
+    desc: 'Work with PL/SQL',
   },
   {
     id: 6,
     category: 'experience',
     icon: 'icon-briefcase',
-    year: '2009 - 2013',
-    title: 'Back-End Developer',
-    desc:
-      'Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.',
+    year: '2018 - 2019',
+    title: 'Software developer',
+    desc: 'Work with PL/SQL and Java',
   },
 ]
 
