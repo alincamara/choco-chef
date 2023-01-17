@@ -18,7 +18,7 @@ export const Portofolio = (): ReactElement => {
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
-          Development
+          Everything
         </span>
         <span className="work__item" onClick={() => filterItem('Development')}>
           Development
