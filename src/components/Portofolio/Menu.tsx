@@ -1,49 +1,36 @@
-import Work1 from '../../assets/work-1.svg'
-import Work2 from '../../assets/work-2.svg'
-import Work3 from '../../assets/work-3.svg'
-import Work4 from '../../assets/work-4.svg'
-import Work5 from '../../assets/work-5.svg'
-import Work6 from '../../assets/work-6.svg'
+import Work1 from '../../assets/alegesanatatea.png'
+import Work2 from '../../assets/alin-site.png'
+import Work3 from '../../assets/choco-chef.jpg'
+import Work4 from '../../assets/youtube.png'
 
 const Menu = [
   {
     id: 1,
-    image: Work1,
-    title: 'Alege Sanatatea',
-    category: 'Development',
+    image: Work3,
+    title: 'Started Choco Chef',
+    category: 'Baking',
+    link: 'https://choco-chef.alincamara.ro',
   },
   {
     id: 2,
     image: Work2,
     title: 'My New Site',
     category: 'Development',
+    link: 'https://alincamara.ro',
   },
-
   {
     id: 3,
-    image: Work6,
-    title: 'Started Choco Chef',
-    category: 'Baking',
+    image: Work1,
+    title: 'Alege Sanatatea',
+    category: 'Development',
+    link: 'https://alegesanatatea.ro',
   },
   {
     id: 4,
     image: Work4,
-    title: 'Onboarding Motivation',
-    category: 'Design',
-  },
-  ,
-  {
-    id: 5,
-    image: Work5,
-    title: 'iMac Mockup Design',
-    category: 'Creative',
-  },
-  ,
-  {
-    id: 6,
-    image: Work6,
-    title: 'Game Store App Concept',
-    category: 'Art',
+    title: 'Started new Youtube chanel - Tot Ce Zboara Se Mananca',
+    category: 'Development',
+    link: 'https://www.youtube.com/@totcezboarasemananca144',
   },
 ]
 

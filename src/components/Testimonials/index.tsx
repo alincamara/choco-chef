@@ -12,18 +12,18 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: 'John Doe',
-    subtitle: 'Product designer at Dribble',
+    title: 'George Pop',
+    subtitle: 'Product Manager at Google',
     comment:
-      'I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍',
+      "I had the pleasure of working with Alin on a project, and I couldn't be happier with the results. As a Front-End developer, Alin is incredibly skilled and knowledgeable in his field. He was able to take our design and turn it into a beautiful and functional website. He was always available to answer any questions and made sure that the end product met our expectations. I highly recommend Alin for any Front-End development needs.",
   },
   {
     id: 2,
     image: Image3,
-    title: 'John Doe',
-    subtitle: 'Product designer at Dribble',
+    title: 'Tatiana Sarbu',
+    subtitle: 'Software Developer at IBM',
     comment:
-      'I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍',
+      'Alin truly has a talent for creating mouth-watering pastries and breads that are not only visually appealing but also bursting with flavor. I particularly enjoyed his signature sourdough bread and his unique flavored cupcakes. Good luck! 👍',
   },
 ]
 
