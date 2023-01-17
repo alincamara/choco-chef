@@ -2,7 +2,7 @@
   "name": "react-typescript-webpack-starter",
   "version": "1.0.0",
   "homepage": "https://.alincamara.ro/",
-  "description": "A starter template for React with Typescript using Webpack 5",
+  "description": "My personal website",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
