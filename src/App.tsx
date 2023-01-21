@@ -12,6 +12,8 @@ import { Portofolio } from './components/Portofolio'
 import { Testimonials } from './components/Testimonials'
 import { Blog } from './components/Blog'
 import { Contact } from './components/Contact'
+import { Footer } from './components/Footer'
+import { ScrollUp } from './components/ScrollUp'
 import './App.css'
 
 const App = (): ReactElement => {
@@ -24,12 +26,14 @@ const App = (): ReactElement => {
         <Header />
         <main className="main">
           <Home />
-          {/* <About />
+          {/* <About /> */}
           <Portofolio />
-          <Testimonials /> */}
+          <Testimonials />
           {/* <Blog /> */}
-          {/* <Contact /> */}
+          <Contact />
         </main>
+        <Footer />
+        <ScrollUp />
       </>
     </div>
   )
