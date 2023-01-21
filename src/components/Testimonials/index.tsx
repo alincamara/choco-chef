@@ -47,7 +47,7 @@ const data = [
 
 export const Testimonials = (): ReactElement => {
   return (
-    <section className="testimonials container section">
+    <section className="testimonials container section" id="reviews">
       <h2 className="section__title">Clients & Reviews</h2>
 
       <Swiper
