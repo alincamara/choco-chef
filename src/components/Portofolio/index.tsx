@@ -35,8 +35,8 @@ export const Portofolio = (): ReactElement => {
         <span className="work__item" onClick={() => filterItem('Croissants')}>
           Croissants
         </span>
-        <span className="work__item" onClick={() => filterItem('Gingerbread')}>
-          Gingerbread
+        <span className="work__item" onClick={() => filterItem('Cookies')}>
+          Cookies
         </span>
       </div>
 

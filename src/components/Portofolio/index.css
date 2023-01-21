@@ -68,6 +68,7 @@
   transform: translateY(30px);
   transition: 0.3s;
   opacity: 0;
+  cursor: pointer;
 }
 
 .work__button {
