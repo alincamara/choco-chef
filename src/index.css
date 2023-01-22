@@ -1,5 +1,6 @@
 /*====================================== Google Fonts ===================================*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 /*====================================== Variables CSS ===================================*/
 :root {
@@ -16,15 +17,15 @@
 
   /*============= Font and Typography ===================*/
   /*.5rem = 8px | 1rem = 16px ...  */
-  --body-font: 'Rubik', sans-serif;
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  --body-font: 'Dancing Script', sans-serif;
+  --big-font-size: 4.5rem;
+  --h1-font-size: 3rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --normal-font-size: 1.5rem;
+  --small-font-size: 1.25rem;
+  --smaller-font-size: 1rem;
+  --tiny-font-size: 0.875rem;
 
   /*============= Font Weight ===================*/
   --font-medium: 500;
@@ -117,17 +118,18 @@ body {
   color: var(--text-color);
 }
 
-body::before {    
-  content: "";
-  background-image: url('/src/assets/background_site.svg');
+body::before {
+  content: '';
+  background-image: url('/src/assets/background-cupcakes.svg');
   background-repeat: repeat;
-  background-size: auto;
+  /* background-size: cover; */
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.08;
+  opacity: 0.06;
+  z-index: -1;
 }
 
 h1,

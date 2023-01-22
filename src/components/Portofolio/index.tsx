@@ -21,7 +21,7 @@ export const Portofolio = (): ReactElement => {
 
   return (
     <section className="work container section" id="portofolio">
-      <h2 className="section__title">Recent Works</h2>
+      <h2 className="section__title">Catalog</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
           Everything
