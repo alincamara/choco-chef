@@ -2,7 +2,7 @@ import Product1 from '../../assets/choux-craquelin.jpg'
 import Product2 from '../../assets/banana_bread.png'
 import Product3 from '../../assets/apple_pie.png'
 import Product4 from '../../assets/croissants.png'
-import Product5 from '../../assets/american_cookies.jpg'
+import Product5 from '../../assets/cookies-american.jpg'
 import Product6 from '../../assets/choux.png'
 
 const Menu = [
