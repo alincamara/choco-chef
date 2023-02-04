@@ -8,8 +8,8 @@ import // useSelector,
 import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { About } from './components/About'
-import { Portofolio } from './components/Portofolio'
-import { Testimonials } from './components/Testimonials'
+import { Catalog } from './components/Catalog'
+import { Reviews } from './components/Reviews'
 import { Blog } from './components/Blog'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
@@ -27,8 +27,8 @@ const App = (): ReactElement => {
         <main className="main">
           <Home />
           {/* <About /> */}
-          <Portofolio />
-          <Testimonials />
+          <Catalog />
+          <Reviews />
           {/* <Blog /> */}
           <Contact />
         </main>

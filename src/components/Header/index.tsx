@@ -52,6 +52,20 @@ export const Header = (): ReactElement => {
 
             <li className="nav__item">
               <a
+                href="#catalog"
+                onClick={() => setActiveNav('#catalog')}
+                className={
+                  activeNav === '#catalog'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
+                <i className="uil uil-scenery nav__icon"></i>Catalog
+              </a>
+            </li>
+
+            <li className="nav__item">
+              <a
                 href="#reviews"
                 onClick={() => setActiveNav('#reviews')}
                 className={
@@ -61,20 +75,6 @@ export const Header = (): ReactElement => {
                 }
               >
                 <i className="uil uil-file-alt nav__icon"></i>Reviews
-              </a>
-            </li>
-
-            <li className="nav__item">
-              <a
-                href="#portofolio"
-                onClick={() => setActiveNav('#portofolio')}
-                className={
-                  activeNav === '#portofolio'
-                    ? 'nav__link active-link'
-                    : 'nav__link'
-                }
-              >
-                <i className="uil uil-scenery nav__icon"></i>Portofolio
               </a>
             </li>
 

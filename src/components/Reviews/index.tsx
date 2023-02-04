@@ -45,7 +45,7 @@ const data = [
   },
 ]
 
-export const Testimonials = (): ReactElement => {
+export const Reviews = (): ReactElement => {
   return (
     <section className="testimonials container section" id="reviews">
       <h2 className="section__title">Clients & Reviews</h2>
@@ -76,4 +76,4 @@ export const Testimonials = (): ReactElement => {
   )
 }
 
-export default Testimonials
+export default Reviews

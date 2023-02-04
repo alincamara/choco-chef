@@ -3,7 +3,7 @@ import React, { ReactElement, useState } from 'react'
 import './index.css'
 import Menu from './Menu'
 
-export const Portofolio = (): ReactElement => {
+export const Catalog = (): ReactElement => {
   const [items, setItems] = useState(Menu)
 
   const filterItem = (categoryItem: any) => {
@@ -20,7 +20,7 @@ export const Portofolio = (): ReactElement => {
   }
 
   return (
-    <section className="work container section" id="portofolio">
+    <section className="work container section" id="catalog">
       <h2 className="section__title">Catalog</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
@@ -54,8 +54,8 @@ export const Portofolio = (): ReactElement => {
               <h3 className="work__title" onClick={() => toggleTab(1)}>
                 {title}
               </h3>
-              <a href={link} className="work__button">
-                <i className="icon-link work__button-icon"></i>
+              <a className="work__button" onClick={() => toggleTab(1)}>
+                <i className="uil-file-alt work__button-icon"></i>
               </a>
             </div>
           )
@@ -117,4 +117,4 @@ export const Portofolio = (): ReactElement => {
   )
 }
 
-export default Portofolio
+export default Catalog
