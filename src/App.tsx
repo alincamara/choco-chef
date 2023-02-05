@@ -14,6 +14,7 @@ import { Blog } from './components/Blog'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { ScrollUp } from './components/ScrollUp'
+import { Products } from './components/Products'
 import './App.css'
 
 const App = (): ReactElement => {
@@ -27,6 +28,7 @@ const App = (): ReactElement => {
         <main className="main">
           <Home />
           {/* <About /> */}
+          <Products />
           <Catalog />
           <Reviews />
           {/* <Blog /> */}
