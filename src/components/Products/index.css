@@ -66,9 +66,3 @@
   box-shadow: var(--shadow);
   margin-bottom: 24px;
 }
-
-.thumb {
-  height: 5.6rem;
-  width: 5.6rem;
-  margin: 0 auto;
-}
