@@ -27,11 +27,19 @@ export const Footer = (): ReactElement => {
         </ul>
         <div className="footer__social">
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/profile.php?id=100089663311516"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-facebook"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/choco.chef_brasov"
+            className="footer__social-link"
+            target="_blank"
+          >
+            <i className="bx bxl-instagram"></i>
           </a>
 
           <a
@@ -40,14 +48,6 @@ export const Footer = (): ReactElement => {
             target="_blank"
           >
             <i className="bx bxl-pinterest"></i>
-          </a>
-
-          <a
-            href="https://www.youtube.com"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-youtube"></i>
           </a>
         </div>
 

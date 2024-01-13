@@ -28,7 +28,7 @@ const App = (): ReactElement => {
         <main className="main">
           <Home />
           {/* <About /> */}
-          <Products />
+          {/* <Products /> */}
           <Catalog />
           <Reviews />
           {/* <Blog /> */}
